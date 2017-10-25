@@ -1,48 +1,25 @@
-## Oswa - inv
+# PRIMAVERA IMS v1
 
+### A savvy yet straightforward inventory management system
 
-![OSWA-INV v2 image](https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/12045296_896994067005023_5505146103193104549_o.jpg?oh=4afd029c1486604d29f672d76becb8bc&oe=5921F70A " Warehouse inventory system ")
-#Warehouse inventory system
-- - - -
+Primavera is an inventory management system based on **Siamon Hasan**'s [OSWA-INV](https://oswapp.com) which is powered by [PHP](http://php.net/),[MySQL](https://www.mysql.com/) and [Bootstrap](http://getbootstrap.com/). 
 
-The application was initially created by **Siamon Hasan**, useing [php](http:php.net), [mysql](https://www.mysql.com) and [bootstrap](http://getbootstrap.com).
+Primavera functions like any inventory management systems do: tracking factors such as price, quantity, flow of products from one place to another and many more. However aside from its flexibility, Primavera also ensures a good visual experience optimized with the user's visual health in mind without compromising functionality whatsoever. Made with a pastel theming and adjusted font sizes for visual comfort, Primavera will assure you a seamless and comfortable workflow.
 
-
-OSWA-INV is a web based Inventory System, that will allow you to keep tracking of the quantity buying and selling price of the products existing in your warehouse or business. When creating a new products, you can set a quantity,buying and selling price.
-
+### Installation
 ****
 
-If you find any bug, and a fix for that bug, please leave a comment on the github page for this project and i will push the change into the master branch.
+1. Fire up Git and download
+   > `git clone https://github.com/znraznra/primavera-ims`
+2. Import primavera.sql using MySQL.
+3. Modify **includes/config.php** and adjust the values to match yours *(host, database, username, password, etc)*
+4. Change all folder permissions inside uploads folder.
+   > Add them to group call `www` or `777`, whichever's applicable.
+5. Finally, log in using these master credentials that you can change or customize later on.
 
+   Admin                | Custom *(in case of users with limited privileges)* | Default *(basic permissions)*
+   ---------------------| --------------------------------------------------- | -----------------------------
+   **Username** : admin | **Username** : custom                               | **Username** : default
+   **Password** : 12345 | **Password** : 12345                                | **Password** : 12345
 
-### Installing this application is fairly easy, just follow these steps:
-****
-
-
-1. Download the latest version with git (`git clone https://github.com/siamon123/warehouse-inventory-system.git`)
-
-2. Import/load oswa_inv.sql into your mysql database. This should set up the basic structure of the database system.
-
-3. Modify the includes/config.php and change the variables to match your host, database, username and passwords.
-
-4. Change all Folder permission inside uploads folder either add them to group call `www` if available or `777`.
-
-5. Then loging by typing **username** and **password**:
-
-
-   Administrator        | Special User           | Default User
-   ---------------------| -----------------------| -------------------
-   **Username** : admin | **Username** : special | **Username** : user
-   **Password** : admin | **Password** : special | **Password** : user
-
-6. Good luck!  
-
-- - - -
-
-## DON'T FORGET TO GIVE US FEEDBACK
-
-- - - -
-
-Like  [@OSWA](https://www.facebook.com/oswapp) on Facebook for more project.
-
-Don't forget to visit [oswapp.com](http://oswapp.com "OSWA")
+6. It's all set now. Have fun!  
